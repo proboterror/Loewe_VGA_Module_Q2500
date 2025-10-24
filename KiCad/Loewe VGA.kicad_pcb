@@ -6671,6 +6671,7 @@
 		(property "Reference" "C816"
 			(at 0 4.35 180)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "d8ba7825-1f39-4277-938d-5816b91a1580")
 			(effects
 				(font
@@ -6681,7 +6682,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 0 -4.35 180)
+			(at 0 4.3 180)
 			(layer "B.SilkS")
 			(uuid "4fc08385-4a4d-44a8-9999-a0f3bf950616")
 			(effects
