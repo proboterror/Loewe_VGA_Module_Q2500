@@ -4553,7 +4553,7 @@
 		(pad "0" thru_hole circle
 			(at -8.185 1.42 90)
 			(size 4 4)
-			(drill 3.2)
+			(drill oval 3.2 2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 26 "unconnected-(W801-Pad0)_0")
@@ -4563,7 +4563,7 @@
 		(pad "0" thru_hole circle
 			(at 16.815 1.42 90)
 			(size 4 4)
-			(drill 3.2)
+			(drill oval 3.2 2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net 25 "unconnected-(W801-Pad0)")
