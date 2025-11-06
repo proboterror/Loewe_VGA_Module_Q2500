@@ -4117,6 +4117,7 @@
 		(property "Reference" "W801"
 			(at 4.315 -2.58 -90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "1403858c-b187-4bc7-8639-edc391a1e6ae")
 			(effects
 				(font
@@ -6370,6 +6371,7 @@
 			(at -1.9286 -9.9989 -90)
 			(unlocked yes)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "202cef34-70c0-4097-87e8-087fb0148921")
 			(effects
 				(font
@@ -7198,6 +7200,18 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "github.com/proboterror/Loewe_VGA_Module_Q2500"
+		(at 172.307074 98.5 0)
+		(layer "B.SilkS")
+		(uuid "6a11f151-0a8a-47fc-8a94-1fde18222fa8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "VCC"
 		(at 131.5 94.3 0)
 		(layer "B.SilkS")
@@ -7266,6 +7280,18 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Loewe TVs Q2500 VGA Module"
+		(at 170.1 96.750072 0)
+		(layer "B.SilkS")
+		(uuid "aa759b37-b745-4cd9-b446-fac61b4ef16b")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
 			)
 			(justify left bottom mirror)
 		)
