@@ -2860,10 +2860,6 @@
 		(at 132.08 143.51)
 		(uuid "a2938678-5bea-442c-afd2-9335ccb0e80d")
 	)
-	(no_connect
-		(at 132.08 151.13)
-		(uuid "a50536f5-6b6a-4490-a40e-b5b70aa70198")
-	)
 	(wire
 		(pts
 			(xy 140.97 158.75) (xy 132.08 158.75)
@@ -7966,6 +7962,73 @@
 			(project "Loewe VGA"
 				(path "/a1c137e0-772e-4d1d-9f66-964ee6eebaf2"
 					(reference "R828")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 132.08 151.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec8a195d-2f69-4f9c-b8ba-f20b4207dfae")
+		(property "Reference" "#PWR013"
+			(at 138.43 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 151.1301 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 132.08 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d753d2bd-fd42-4080-9044-d681d3ed36e6")
+		)
+		(instances
+			(project "Loewe VGA"
+				(path "/a1c137e0-772e-4d1d-9f66-964ee6eebaf2"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
