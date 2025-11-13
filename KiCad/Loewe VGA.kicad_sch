@@ -3510,6 +3510,16 @@
 		)
 		(uuid "fef43351-b8c1-4ba6-b0df-39a456837fc7")
 	)
+	(text "Do not solder R836~R838\nfor Q2400 chassis"
+		(exclude_from_sim no)
+		(at 215.392 163.322 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "40a4e1c1-2187-4530-95ac-26cacbbca892")
+	)
 	(label "BLUE"
 		(at 172.72 140.97 0)
 		(fields_autoplaced yes)
