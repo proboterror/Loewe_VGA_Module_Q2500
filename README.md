@@ -12,7 +12,7 @@ Unverified, obtained from post by djcalle on [circuit-board.de/forum](https://ci
 - Q25 and Q24 use the same VGA card (only 2 differences: cable length and 150R termination on RGB lines.)
 - Q25 seems to be inconsistent with VGA card compatibility.
 - Q24 seems consistent with vga card compatibility.
-- Q23 uses its own different card.
+- Q23 uses its own [different card](https://github.com/proboterror/Loewe_VGA_Module_Q2300).
 
 Original schematic from [Loewe Q2500M chassis service manual](doc/Loewe%20Q2500M%20Service%20Manual.pdf)
 ![pcb_top](images/scheme-original.png)
