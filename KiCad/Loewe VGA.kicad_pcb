@@ -7331,6 +7331,18 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "Only for Q25 chassis"
+		(at 129.2 120.9 90)
+		(layer "F.SilkS")
+		(uuid "5c05cb8c-52f5-4e1e-9de0-3e6ffd558cf5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(segment
 		(start 153.0011 115.6286)
 		(end 152.9714 115.6286)
