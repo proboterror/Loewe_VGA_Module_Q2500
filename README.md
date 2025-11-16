@@ -31,7 +31,7 @@ Recreated schematic and PCB
 |C816|10u|0805|1|
 |C818|22n|0805|1|
 |C822|100p|0805|1|
-|L816,L826|L3225|?|2|
+|L816,L826|1210(3225)|4.7uH|2|
 |R814,R819,R821,R823,R828,R829|100R|0805|6|
 |R817|10k|0805|1|
 |R818|1k|0805|1|
@@ -45,9 +45,9 @@ Recreated schematic and PCB
 Send "gerbers" folder content packed to zip archive.
 
 ## Build Notes
-L816 and L826 L3225 size SMD inductors value are unknown; replace with 0R resistor or solder bridge.
+L816 and L826 SMD 1210(3225) inductors value are unknown; 4.7uH in Q2300 VGA module schematic; can be replaced with 0R resistor.
 
-W831 connector originally is Molex 22-23-2121. Probably can be replaced with XH 2.54 12 pin connectors / cables.
+W831 connector originally is Molex 22-23-2121. Probably can be replaced with XH 2.54 12 pin connectors / cables, note pins step 2.5/254 mm.
 Pay attention on cable connectors type: same direction or reverse direction.
 Most cable are up to 30 cm, sometimes 50 cm. Measure what you need before ordering. 
 
