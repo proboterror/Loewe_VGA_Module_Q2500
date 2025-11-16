@@ -56,3 +56,6 @@ Most cable are up to 30 cm, sometimes 50 cm. Measure what you need before orderi
 ## Install
 Q2400 chassis:
 ![Q2400 Module connection diagram](images/connect_Q24.png)
+
+Q2500 chassis:
+![Q2500 Module connection diagram](images/connect_Q25.png)
