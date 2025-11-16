@@ -3648,7 +3648,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "LL3225M"
+		(property "Value" "4u7"
 			(at 88.9 52.832 90)
 			(effects
 				(font
@@ -3658,7 +3658,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Loewe VGA:L3225M"
+		(property "Footprint" "Inductor_SMD:L_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
 			(at 92.71 49.53 0)
 			(effects
 				(font
@@ -7410,7 +7410,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "LL3225M"
+		(property "Value" "4u7"
 			(at 83.82 90.932 90)
 			(effects
 				(font
@@ -7420,7 +7420,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Loewe VGA:L3225M"
+		(property "Footprint" "Inductor_SMD:L_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
 			(at 87.63 87.63 0)
 			(effects
 				(font
