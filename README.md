@@ -52,3 +52,7 @@ Pay attention on cable connectors type: same direction or reverse direction.
 Most cable are up to 30 cm, sometimes 50 cm. Measure what you need before ordering. 
 
 **Double-check ground and VCC connection on VGA module PCB and TV chassis before soldering 12-pin W831 connector and power on.**
+
+## Install
+Q2400 chassis:
+![Q2400 Module connection diagram](images/connect_Q24.png)
