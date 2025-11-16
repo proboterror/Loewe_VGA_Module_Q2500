@@ -7211,8 +7211,8 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "github.com/proboterror/Loewe_VGA_Module_Q2500"
-		(at 172.307074 98.5 0)
+	(gr_text "github.com/proboterror/Loewe_VGA_Module_Q2500\nt.me/dmg_crt"
+		(at 153.1 100.1 0)
 		(layer "B.SilkS")
 		(uuid "6a11f151-0a8a-47fc-8a94-1fde18222fa8")
 		(effects
@@ -7220,7 +7220,7 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify left bottom mirror)
+			(justify bottom mirror)
 		)
 	)
 	(gr_text "VCC"
@@ -7702,7 +7702,7 @@
 	(segment
 		(start 147.1 118.3786)
 		(end 149.1011 118.3786)
-		(width 0.2)
+		(width 0.3)
 		(layer "F.Cu")
 		(net 5)
 		(uuid "d2a9badb-b26c-4b8c-b2ed-8ec7b098d2c7")
@@ -7718,7 +7718,7 @@
 	(segment
 		(start 147.1 118.3786)
 		(end 147.1 116.4)
-		(width 0.2)
+		(width 0.3)
 		(layer "F.Cu")
 		(net 5)
 		(uuid "ef391ec4-b0a4-46e8-9f36-68273f906fe0")
@@ -7726,7 +7726,7 @@
 	(segment
 		(start 145.5386 118.3786)
 		(end 147.1 118.3786)
-		(width 0.2)
+		(width 0.3)
 		(layer "F.Cu")
 		(net 5)
 		(uuid "fa36a32a-163b-4ece-a456-22c3591ff874")
@@ -7750,7 +7750,7 @@
 	(segment
 		(start 147.1 116.4)
 		(end 147.1 117.8)
-		(width 0.2)
+		(width 0.3)
 		(layer "B.Cu")
 		(net 5)
 		(uuid "eb56385e-4306-461e-b51b-c09fc73c2e7f")
