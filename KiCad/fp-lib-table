@@ -1,5 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "Loewe VGA")(type "KiCad")(uri "$(KIPRJMOD)/Loewe VGA.pretty")(options "")(descr ""))
   (lib (name "JST_XH_S10B_2.54mm")(type "KiCad")(uri "${KIPRJMOD}/JST_XH_S10B_2.54mm.pretty")(options "")(descr ""))
 )

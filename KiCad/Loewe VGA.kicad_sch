@@ -6325,7 +6325,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22-23-2121 Molex"
+		(property "Value" "TV"
 			(at 240.03 138.4299 0)
 			(effects
 				(font
@@ -6334,7 +6334,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Loewe VGA:22-23-2121"
+		(property "Footprint" "JST_XH_S10B_2.54mm:JST_XH_B12B-XH-A_1x12_P2.54mm_Vertical"
 			(at 237.49 135.89 0)
 			(effects
 				(font
