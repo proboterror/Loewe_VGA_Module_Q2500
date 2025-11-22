@@ -39,7 +39,7 @@ Recreated schematic and PCB
 |R836,R837,R838|150R|0805|3|
 |I811|74HCT86|SO-14|1|
 |W801|VGA DSUB-15<br>Edge pin offset 8.35mm<br>Mounting holes offset 10.89mm ||1|
-|W831|Molex 22-23-2121<br>XH 2.54 12 Pin||1|
+|W831|JST XH 2.54 12 Pin||1|
 
 ## Order boards from manufacturer
 Send "gerbers" folder content packed to zip archive.
