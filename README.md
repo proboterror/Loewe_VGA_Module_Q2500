@@ -68,3 +68,15 @@ TV Signal Board schematic:
 ![Q2400 Signal Board schematic](images/q2400_signal_board.png)
 Q2400 signal board already have 75 Ohm termination resistrs on RGB lines.<br>
 150 Ohm RGB termination resistors on adapter board should be removed.
+
+### Q2500-B
+TV Signal Board schematic:
+![Q2500-B Signal Board schematic](images/q2500b_signal_board.png)
+
+### Q2500-H
+TV Signal Board schematic:
+![Q2500-H Signal Board schematic](images/q2500h_signal_board.png)
+
+### Q2500-M
+TV Signal Board schematic:
+![Q2500-M Signal Board schematic](images/q2500m_signal_board.png)
