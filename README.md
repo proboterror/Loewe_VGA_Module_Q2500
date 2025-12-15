@@ -14,7 +14,7 @@ Unverified, obtained from post by djcalle on [circuit-board.de/forum](https://ci
 - Q24 seems consistent with vga card compatibility.
 - Q23 uses its own [different card](https://github.com/proboterror/Loewe_VGA_Module_Q2300).
 
-Original schematic from [Loewe Q2500M chassis service manual](doc/Loewe%20Q2500M%20Service%20Manual.pdf)
+Original schematic from [Loewe Q2500-M chassis service manual](doc/Q2500-M/Loewe%20Q2500M%20Service%20Manual.pdf)
 ![pcb_top](images/scheme-original.png)
 
 Recreated schematic and PCB
