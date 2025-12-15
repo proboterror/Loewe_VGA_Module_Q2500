@@ -59,3 +59,12 @@ Q2400 chassis:
 
 Q2500 chassis:
 ![Q2500 Module connection diagram](images/connect_Q25.png)
+
+## Required TV and adapter board modifications
+Mods information provided by @neon.
+
+### Q2400
+TV Signal Board schematic:
+![Q2400 Signal Board schematic](images/q2400_signal_board.png)
+Q2400 signal board already have 75 Ohm termination resistrs on RGB lines.<br>
+150 Ohm RGB termination resistors on adapter board should be removed.
