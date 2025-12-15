@@ -61,7 +61,7 @@ Q2500 chassis:
 ![Q2500 Module connection diagram](images/connect_Q25.png)
 
 ## Required TV and adapter board modifications
-Mods information provided by @neon.
+Mods information provided by @neonname.
 
 ### Q2400
 TV Signal Board schematic:
@@ -73,22 +73,26 @@ Q2400 signal board already have 75 Ohm termination resistors on RGB lines.<br>
 ### Q2500-B
 TV Signal Board schematic:
 ![Q2500-B Signal Board schematic](images/q2500b_signal_board.png)
+PCB components side:
+![Q2500-B Signal Board PCB](images/q2500b_signal_board_pcb_front_side.png)
+PCB solder side:
+![Q2500-B Signal Board PCB](images/q2500b_signal_board_pcb_back_side.png)
 <hr>
 
 ### Q2500-H
 TV Signal Board schematic:
 ![Q2500-H Signal Board schematic](images/q2500h_signal_board.png)
-PCB front:
+PCB components side:
 ![Q2500-H Signal Board PCB](images/q2500h_signal_board_pcb_front_side.png)
-PCB back:
+PCB solder side:
 ![Q2500-H Signal Board PCB](images/q2500h_signal_board_pcb_back_side.png)
 <hr>
 
 ### Q2500-M
 TV Signal Board schematic:
 ![Q2500-M Signal Board schematic](images/q2500m_signal_board.png)
-PCB front:
+PCB components side:
 ![Q2500-M Signal Board PCB](images/q2500m_signal_board_pcb_front_side.png)
-PCB back:
+PCB solder side:
 ![Q2500-M Signal Board PCB](images/q2500m_signal_board_pcb_back_side.png)
 <hr>
