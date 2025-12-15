@@ -63,6 +63,8 @@ Q2500 chassis:
 ## Required TV and adapter board modifications
 Mods information provided by @neonname.
 
+Combined VGA adapter board output and TV input termination/load resistance for RGB lines should be ~75 Ohm.
+
 ### Q2400
 TV Signal Board schematic:
 ![Q2400 Signal Board schematic](images/q2400_signal_board.png)
@@ -77,6 +79,10 @@ PCB components side:
 ![Q2500-B Signal Board PCB](images/q2500b_signal_board_pcb_front_side.png)
 PCB solder side:
 ![Q2500-B Signal Board PCB](images/q2500b_signal_board_pcb_back_side.png)
+PCB missing W1011 VGA connector and RGB input resistors, RGB input connected to ground with 0R load resistors.<br>
+Suggested changes, needs to check on real board:<br>
+- Replaсe R2641, R2643, R2646 (0R) with 27R, add missing R1016, R1017, R1018 47R resistors (like Q2500-M) (probably incorrect termination)
+- Or replaсe R2641, R2643, R2646 (0R) with 150R; add missing R1016, R1017, R1018 (0R) (like Q2500-H). Note: R2512, R2513, R2514.
 <hr>
 
 ### Q2500-H
@@ -86,6 +92,8 @@ PCB components side:
 ![Q2500-H Signal Board PCB](images/q2500h_signal_board_pcb_front_side.png)
 PCB solder side:
 ![Q2500-H Signal Board PCB](images/q2500h_signal_board_pcb_back_side.png)
+Recommended changes:<br>
+- Replaсe R2641, R2643, R2646 (68R) with 150R; R1016, R1017, R1018 (10R) with 0R; R2512, R2513, R2514 (0R) with 47R; remove C1016, C1017, C1018.
 <hr>
 
 ### Q2500-M
@@ -95,4 +103,6 @@ PCB components side:
 ![Q2500-M Signal Board PCB](images/q2500m_signal_board_pcb_front_side.png)
 PCB solder side:
 ![Q2500-M Signal Board PCB](images/q2500m_signal_board_pcb_back_side.png)
+Suggested changes, needs to check on real board:<br>
+- Replaсe R2641, R2643, R2646 (47R) with 150R; R1016, R1017, R1018 (27R) with 0R; remove C1016, C1017, C1018. Note: R2512, R2513, R2514.
 <hr>
