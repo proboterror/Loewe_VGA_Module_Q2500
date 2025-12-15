@@ -78,12 +78,17 @@ TV Signal Board schematic:
 ### Q2500-H
 TV Signal Board schematic:
 ![Q2500-H Signal Board schematic](images/q2500h_signal_board.png)
+PCB front:
+![Q2500-H Signal Board PCB](images/q2500h_signal_board_pcb_front_side.png)
+PCB back:
+![Q2500-H Signal Board PCB](images/q2500h_signal_board_pcb_back_side.png)
 <hr>
 
 ### Q2500-M
 TV Signal Board schematic:
 ![Q2500-M Signal Board schematic](images/q2500m_signal_board.png)
-PCB:
+PCB front:
 ![Q2500-M Signal Board PCB](images/q2500m_signal_board_pcb_front_side.png)
+PCB back:
 ![Q2500-M Signal Board PCB](images/q2500m_signal_board_pcb_back_side.png)
 <hr>
