@@ -68,6 +68,8 @@ Combined VGA adapter board output and TV input termination/load resistance for R
 ### Q2400
 TV Signal Board schematic:
 ![Q2400 Signal Board schematic](images/q2400_signal_board.png)
+PCB components side:
+![Q2400 Signal Board PCB](images/q2400_signal_board_pcb_front_side.png)
 Q2400 signal board already have 75 Ohm termination resistors on RGB lines.<br>
 150 Ohm RGB termination resistors on adapter board should be removed.
 <hr>
