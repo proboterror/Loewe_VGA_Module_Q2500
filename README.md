@@ -17,6 +17,9 @@ Unverified, obtained from post by djcalle on [circuit-board.de/forum](https://ci
 Original schematic from [Loewe Q2500-M chassis service manual](doc/Q2500-M/Loewe%20Q2500M%20Service%20Manual.pdf)
 ![pcb_top](images/scheme-original.png)
 
+## EDID option
+For widescreen TVs [EDID](https://en.wikipedia.org/wiki/Extended_Display_Identification_Data) EEPROM option can be installed and flashed, helping to automatically add 848x480@60Hz (CVT) default widescreen resolution.
+
 Recreated schematic and PCB
 ![scheme](images/scheme.png)
 ![pcb_top](images/pcb_top.png)
@@ -40,11 +43,15 @@ Recreated schematic and PCB
 |I811|74HCT86|SO-14|1|
 |W801|VGA DSUB-15<br>Edge pin offset 8.35mm<br>Mounting holes offset 10.89mm ||1|
 |W831|JST XH 2.54 12 Pin||1|
+|U2|AT24C02 (EDID option)|SOIC-8|1|
+|R1,R2|2K2 (EDID option)|0805|2|
 
 ## Order boards from manufacturer
 Send "gerbers" folder content packed to zip archive.
 
 ## Build Notes
+AT24C02 EEPROM and R1,R2 are EDID option, useful for connection widescreen models to PC/VGA.
+
 L816 and L826 SMD 1210(3225) inductors value are unknown; 4.7uH in Q2300 VGA module schematic; can be replaced with 0R resistor.
 
 W831 connector originally is Molex 22-23-2121. Probably can be replaced with XH 2.54 12 pin connectors / cables, note pins step 2.5/254 mm.
@@ -52,6 +59,42 @@ Pay attention on cable connectors type: same direction or reverse direction.
 Most cable are up to 30 cm, sometimes 50 cm. Measure what you need before ordering. 
 
 **Double-check ground and VCC connection on VGA module PCB and TV chassis before soldering 12-pin W831 connector and power on.**
+
+## EDID ROM
+[Extended Display Identification Data (EDID)](https://en.wikipedia.org/wiki/Extended_Display_Identification_Data) ROM sends display info to PC over VGA [I2C](https://en.wikipedia.org/wiki/I2C) [DDC (Display Data Channel)](https://en.wikipedia.org/wiki/Display_Data_Channel), such as supported / default resolutions, supported frequency ranges, physical dimensions and display name.
+
+Standard VGA resolutions 640x400@70Hz and 640x480@60Hz marked as supported.<br>
+Added custom default resolution 848x480@60Hz.<br>
+Added modeline generated with [CVT](doc/VESA-CVT-1.2.pdf) formulas.<br>
+Display reported as "Loewe CRT".
+
+Generated [edid.bin](EDID/edid.bin) can be in-system programmed to AT24C02 EEPROM with CH341 (I2C) programmer, 8 pin chip clip and NeoProgrammer V2.2.0.10:
+"IC/I2C/Generic/_24C02 [3.3V]" or "Detect", "File/Open" .bin, "Write IC" (Erase, Blank Check, Write, Verify).
+
+[EDID 1.3](doc/VESA-EEDID-A1.pdf) display description ROM image in raw .hex format generated with [generate_edid.py](EDID/generate_edid.py) script.
+
+Generate edid.hex:
+```
+python generate_edid.py > edid.hex
+```
+Convert raw .hex to .bin:
+```
+type edid.hex | xxd -r -p > edid.bin
+```
+To view generated display description:
+```
+edid-decode edid.bin
+```
+
+Conservative / more compatible custom modeline included by default:
+```
+Modeline "848x480_60" 31.75  848 864 944 1024  480 483 493 517 -hsync +vsync
+```
+Alternative modeline generated with cvt utility can be selected in generate_edid.py:
+```
+cvt 848 480 60
+Modeline "848x480_60" 31.50  848 872 952 1056  480 483 493 500 -hsync +vsync
+```
 
 ## Install
 Q2400 chassis:

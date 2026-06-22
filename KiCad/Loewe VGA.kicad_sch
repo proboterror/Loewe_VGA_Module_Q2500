@@ -2403,6 +2403,230 @@
 				)
 			)
 		)
+		(symbol "Memory_EEPROM:AT24CS02-SSHM"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AT24CS02-SSHM"
+				(at 2.54 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8815-SEEPROM-AT24CS01-02-Datasheet.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "I2C Serial EEPROM, 2Kb (256x8) with Unique Serial Number, SO8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "I2C Serial EEPROM Nonvolatile Memory"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AT24CS02-SSHM_1_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "WP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -2837,20 +3061,20 @@
 		(uuid "ffbe37a2-a9bb-45fa-b71e-8d15dd79dbb0")
 	)
 	(no_connect
-		(at 116.84 153.67)
-		(uuid "17164848-9a04-4f29-83d2-9606cf41efba")
+		(at 29.21 151.13)
+		(uuid "3d8aa048-6d39-4aa3-abe0-63665432b974")
 	)
 	(no_connect
-		(at 116.84 138.43)
-		(uuid "2e6ed0c0-9760-41eb-889f-d1e41ea0c9ed")
-	)
-	(no_connect
-		(at 132.08 146.05)
-		(uuid "399873d6-10f3-4a44-8bd7-9bda871d5159")
+		(at 29.21 153.67)
+		(uuid "5511bad1-50a8-4c50-b344-f3c3337bfffb")
 	)
 	(no_connect
 		(at 116.84 158.75)
 		(uuid "57da5355-e25d-492d-9224-640bc6a2188d")
+	)
+	(no_connect
+		(at 29.21 148.59)
+		(uuid "7d52628b-4e2d-4fed-9810-be2dc89f93b6")
 	)
 	(no_connect
 		(at 124.46 130.81)
@@ -2969,6 +3193,16 @@
 			(type default)
 		)
 		(uuid "385edb0e-2f2d-4502-81d8-ad26cd1d7c54")
+	)
+	(wire
+		(pts
+			(xy 133.35 146.05) (xy 132.08 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ba9a51f-5d14-4de8-a5b1-9888b9d7f0a7")
 	)
 	(wire
 		(pts
@@ -3510,6 +3744,28 @@
 		)
 		(uuid "fef43351-b8c1-4ba6-b0df-39a456837fc7")
 	)
+	(rectangle
+		(start 23.114 132.588)
+		(end 86.614 170.688)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 258f0b2f-3333-4910-9878-8c3f0449f12e)
+	)
+	(text "EDID Option"
+		(exclude_from_sim no)
+		(at 33.02 167.64 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "20921571-7605-4a16-8df5-70693a771b41")
+	)
 	(text "Do not solder R836~R838\nfor Q2400 chassis"
 		(exclude_from_sim no)
 		(at 215.392 163.322 0)
@@ -3553,6 +3809,17 @@
 		)
 		(uuid "1315defa-9c1d-4926-b259-3e4c162ed292")
 	)
+	(label "SDA"
+		(at 49.53 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "28e4560a-d31d-4762-8ae9-aa90ba4c07d2")
+	)
 	(label "HSYNC"
 		(at 116.84 148.59 180)
 		(fields_autoplaced yes)
@@ -3575,6 +3842,39 @@
 		)
 		(uuid "2edeb6fb-8306-40da-b3e6-7505a4423e0c")
 	)
+	(label "VGA_+5V"
+		(at 72.39 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "409ef2a8-c441-424e-bdfe-e830e917befc")
+	)
+	(label "SCL"
+		(at 116.84 138.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4315a0c9-8844-4988-a8df-dbcb5364bbb8")
+	)
+	(label "SDA"
+		(at 116.84 153.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4be8f9ae-2047-43e0-8c0f-34f1f0713601")
+	)
 	(label "RED"
 		(at 172.72 146.05 0)
 		(fields_autoplaced yes)
@@ -3585,6 +3885,28 @@
 			(justify left bottom)
 		)
 		(uuid "56e2f927-348b-4293-9a56-b6968cb432f1")
+	)
+	(label "VGA_+5V"
+		(at 39.37 143.51 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f131913-8bba-4834-a869-b3a2ce40dd42")
+	)
+	(label "VGA_+5V"
+		(at 72.39 157.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ddf577f-a045-4538-89fe-aeea292f0353")
 	)
 	(label "BLUE"
 		(at 140.97 148.59 0)
@@ -3619,6 +3941,50 @@
 		)
 		(uuid "b3e03f19-6fe2-4d55-9d87-6abee39ffd8e")
 	)
+	(label "SDA"
+		(at 64.77 147.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c51e161f-99f1-483c-8c84-7291a351bb8b")
+	)
+	(label "SCL"
+		(at 49.53 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dedc7c18-4d28-4fd0-84f0-732168f7db4e")
+	)
+	(label "SCL"
+		(at 64.77 157.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e2f31869-a4ca-4ea9-98d3-fa1747a50842")
+	)
+	(label "VGA_+5V"
+		(at 49.53 153.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e6d71259-c0f1-476e-9edb-6ed7b840f6d4")
+	)
 	(label "GREEN"
 		(at 140.97 153.67 0)
 		(fields_autoplaced yes)
@@ -3629,6 +3995,17 @@
 			(justify left bottom)
 		)
 		(uuid "f281bd93-f4e4-4245-93be-ca456167bcd1")
+	)
+	(label "VGA_+5V"
+		(at 133.35 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f29cc248-389a-4cc7-abe1-29dec166072f")
 	)
 	(symbol
 		(lib_id "Device:L")
@@ -4482,6 +4859,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 39.37 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4493b862-60be-4ddc-8241-ddce2ffb9fad")
+		(property "Reference" "#PWR014"
+			(at 39.37 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 39.37 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 39.37 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9c079dd-163f-4150-8052-afdbbafb56f5")
+		)
+		(instances
+			(project "Loewe VGA"
+				(path "/a1c137e0-772e-4d1d-9f66-964ee6eebaf2"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 167.64 109.22 270)
 		(unit 1)
@@ -5124,6 +5567,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 68.58 157.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "599fde7d-750b-4e42-b64a-f8014427a8c3")
+		(property "Reference" "R2"
+			(at 70.104 153.924 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "2K2"
+			(at 70.866 159.258 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 68.58 159.258 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 68.58 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "53d43bfc-50ee-487a-95ea-5a88debbe810")
+		)
+		(pin "1"
+			(uuid "2dc7c2eb-5c05-4608-897d-f9dfe455e98b")
+		)
+		(instances
+			(project "Loewe VGA"
+				(path "/a1c137e0-772e-4d1d-9f66-964ee6eebaf2"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 181.61 166.37 0)
 		(unit 1)
@@ -5657,6 +6169,94 @@
 			(project "Loewe VGA"
 				(path "/a1c137e0-772e-4d1d-9f66-964ee6eebaf2"
 					(reference "R814")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Memory_EEPROM:AT24CS02-SSHM")
+		(at 39.37 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81892a56-afa1-46d0-a8dd-83877477d0dd")
+		(property "Reference" "U2"
+			(at 41.5641 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AT24C02"
+			(at 41.5641 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 39.37 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8815-SEEPROM-AT24CS01-02-Datasheet.pdf"
+			(at 39.37 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "I2C Serial EEPROM, 2Kb (256x8) with Unique Serial Number, SO8"
+			(at 39.37 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "6d8a986b-d101-4e7f-ab89-f292bfeb48cc")
+		)
+		(pin "3"
+			(uuid "207a8f20-ec3f-4f65-9080-54b97c20b3ac")
+		)
+		(pin "7"
+			(uuid "856f5b31-61c1-49fe-9a0f-2010ad1f6620")
+		)
+		(pin "8"
+			(uuid "5b6da632-a6cc-4afe-ba52-78aae5588037")
+		)
+		(pin "5"
+			(uuid "96080672-1299-4221-ba62-0a758b2e3281")
+		)
+		(pin "2"
+			(uuid "3cb056d1-c872-41b2-a326-72949d699b1b")
+		)
+		(pin "4"
+			(uuid "e07b5b1a-aefb-471b-9963-30dc36bc6f3a")
+		)
+		(pin "1"
+			(uuid "ff97d45e-42a3-41b1-a474-396a563e7b29")
+		)
+		(instances
+			(project "Loewe VGA"
+				(path "/a1c137e0-772e-4d1d-9f66-964ee6eebaf2"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -8280,6 +8880,75 @@
 			(project "Loewe VGA"
 				(path "/a1c137e0-772e-4d1d-9f66-964ee6eebaf2"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 68.58 147.32 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f28fe5d7-f580-4555-bd5b-a2f60a1c1523")
+		(property "Reference" "R1"
+			(at 70.104 143.764 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "2K2"
+			(at 70.866 149.098 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 68.58 149.098 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 68.58 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ba14b9bf-53c7-49ae-b8e5-59c5b9f6688c")
+		)
+		(pin "1"
+			(uuid "1c26ec82-8467-41df-914a-021c3dee9da8")
+		)
+		(instances
+			(project "Loewe VGA"
+				(path "/a1c137e0-772e-4d1d-9f66-964ee6eebaf2"
+					(reference "R1")
 					(unit 1)
 				)
 			)
