@@ -14,11 +14,11 @@ Unverified, obtained from post by djcalle on [circuit-board.de/forum](https://ci
 - Q24 seems consistent with vga card compatibility.
 - Q23 uses its own [different card](https://github.com/proboterror/Loewe_VGA_Module_Q2300).
 
-Original schematic from [Loewe Q2500-M chassis service manual](doc/Q2500-M/Loewe%20Q2500M%20Service%20Manual.pdf)
-![pcb_top](images/scheme-original.png)
-
 ## EDID option
 For widescreen TVs [EDID](https://en.wikipedia.org/wiki/Extended_Display_Identification_Data) EEPROM option can be installed and flashed, helping to automatically add 848x480@60Hz (CVT) default widescreen resolution.
+
+Original schematic from [Loewe Q2500-M chassis service manual](doc/Q2500-M/Loewe%20Q2500M%20Service%20Manual.pdf)
+![pcb_top](images/scheme-original.png)
 
 Recreated schematic and PCB
 ![scheme](images/scheme.png)
