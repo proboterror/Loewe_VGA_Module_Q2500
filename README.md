@@ -54,9 +54,9 @@ AT24C02 EEPROM and R1,R2 are EDID option, useful for connection widescreen model
 
 L816 and L826 SMD 1210(3225) inductors value are unknown; 4.7uH in Q2300 VGA module schematic; can be replaced with 0R resistor.
 
-W831 connector originally is Molex 22-23-2121. Probably can be replaced with XH 2.54 12 pin connectors / cables, note pins step 2.5/254 mm.
-Pay attention on cable connectors type: same direction or reverse direction.
-Most cable are up to 30 cm, sometimes 50 cm. Measure what you need before ordering. 
+W831 connector originally is Molex 22-23-2121. Probably can be replaced with XH 2.54 12 pin connectors / cables, note pins step 2.5/254 mm.<br>
+Pay attention on cable connectors type: same direction or reverse direction.<br>
+12 pin 50 cm cable are required for Q25 chassis, 30 cm cable for Q24 chassis. For Q23 chassis, two 10 pin cables are required.
 
 **Double-check ground and VCC connection on VGA module PCB and TV chassis before soldering 12-pin W831 connector and power on.**
 
